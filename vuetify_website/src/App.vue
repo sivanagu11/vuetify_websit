@@ -9,13 +9,14 @@ flat
 </v-app-bar>
 <v-content>
   <Hero/>
-
+<gallary/>
 </v-content>
 </v-app>
 </template>
 
 
 <script>
+import gallary from './components/gallary';
 import Header from './components/Header';
 import Hero from './components/Hero'
 
@@ -25,6 +26,7 @@ export default {
   components: {
     Header,
     Hero,
+    gallary,
   },
 
   data: () => ({

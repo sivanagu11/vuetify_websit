@@ -3,7 +3,7 @@
     
     <v-toolbar flat>
 
-      <v-toolbar-title>Online Store</v-toolbar-title>
+      <v-toolbar-title>Online Store </v-toolbar-title>
         
       <v-spacer></v-spacer>
 

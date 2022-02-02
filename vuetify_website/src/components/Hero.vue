@@ -1,6 +1,6 @@
 <template>
     <div class="heroclock">
-  <v-carousel hide-delimiters cycle >
+  <v-carousel hide-delimiters cycle height="350px" >
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"
